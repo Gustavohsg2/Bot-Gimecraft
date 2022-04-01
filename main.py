@@ -33,7 +33,7 @@ async def on_message(message):
         await message.channel.send(random.choice(inspire))
     if message.content.startswith('g!help'):
         await message.channel.send('```diff\n+ Comandos do bot GIMECRAFT!\n\n+ g!inspire\n+ O bot manda uma frase de inspiração.\n\n+ g!link\n+ O bot manda os links de canais e discords de projetos do Gustavo\n```')
-    if message.content.startswith('g!')
+    if message.content.startswith('g!fnaf')
 
 
 client.run('OTU1NTc4NzY3MTY4OTI1NzU2.YjjuEw.CHF25NLKCciMwRAKSozkYcFr0bo')
